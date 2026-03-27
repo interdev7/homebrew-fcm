@@ -1,15 +1,15 @@
 class Fcm < Formula
   desc "Production-ready Firebase Cloud Messaging CLI for Go"
   homepage "https://github.com/interdev7/fcm-cli"
-  version "v1.0.0"
+  version "v1.1.1"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/interdev7/fcm-cli/releases/download/v1.0.0/fcm-darwin-arm64"
-      sha256 "f0dec4f195203e1e90c50cc884d7707a33adb06439d870a5cdf44c64a80c4ac2"
+      url "https://github.com/interdev7/fcm-cli/releases/download/v1.1.1/fcm-darwin-arm64"
+      sha256 "459cda14389894220aca88eccfc1b563d4b8d397343d2dbccb15d6eb13317ebc"
     else
-      url "https://github.com/interdev7/fcm-cli/releases/download/v1.0.0/fcm-darwin-amd64"
-      sha256 "2c40f31b8c54b49120fe6568253cea8a0021103397a420934505a1ed2ba5b152"
+      url "https://github.com/interdev7/fcm-cli/releases/download/v1.1.1/fcm-darwin-amd64"
+      sha256 "8973c0c267fdefceb6fc254a6978daed6e9ca43d6f90277d6688f02131fd5793"
     end
   end
 
