@@ -6,10 +6,10 @@ class Fcm < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/interdev7/fcm-cli/releases/download/v1.0.0/fcm-darwin-arm64"
-      sha256 "6d6611def2baa55e20ccbc061019cad0b94d66aa1ef5a9996fda74d19c376bb6"
+      sha256 "f0dec4f195203e1e90c50cc884d7707a33adb06439d870a5cdf44c64a80c4ac2"
     else
       url "https://github.com/interdev7/fcm-cli/releases/download/v1.0.0/fcm-darwin-amd64"
-      sha256 "c01e6643ae172df1bb34031dbf5007bf597f21f378744f865c5e2bb9ff385cfc"
+      sha256 "2c40f31b8c54b49120fe6568253cea8a0021103397a420934505a1ed2ba5b152"
     end
   end
 
